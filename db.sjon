@@ -1,0 +1,64 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "author": "typicode" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" },
+  "app":[ {
+  			"v1": {"name": "hik" }
+  		}],
+  "acsDeviceList": 
+  {
+    "code": "0",
+    "msg": "ok",
+    "data": {
+        "total": 12,
+        "pageNo": 1,
+        "pageSize": 2,
+        "list": [
+            {
+                "acsDevIndexCode": "35750a57f20f4a2f989c399cd088ffde",
+                "acsDevName": "fack",
+                "acsDevTypeDesc": "123",
+                "acsDevTypeCode": "root000000",
+                "acsDevTypeName": "null",
+                "acsDevIp": "1.2.3.4",
+                "acsDevPort": "8000",
+                "acsDevCode": "123",
+                "regionIndexCode": "123",
+                "treatyType": "123",
+                "createTime": "2018-08-30T14:43:15.440+08:00",
+                "updateTime": "2018-09-04T13:50:47.328+08:00"
+            }
+        ]
+    }
+},
+	"acsDoorList": 
+	{
+    "code": "0",
+    "msg": "ok",
+    "data": {
+        "total": 37,
+        "pageNo": 1,
+        "pageSize": 2,
+        "list": [
+            {
+                "doorIndexCode": "0f3bab9aebc2465c9d19981d6d14b989",
+                "doorName": "假_门1",
+                "doorNo": "1",
+                "acsDevIndexCode": "79f11b9427794cb298ffafb8428042cf",
+                "regionIndexCode": "f223aa91-9bec-4ed0-98b8-a4e728a08351",
+                "channelType": "door",
+                "channelNo": "1",
+                "installLocation": "null",
+                "remark": "null",
+                "createTime": "2018-08-29T21:50:45.911+08:00",
+                "updateTime": "2018-08-29T21:50:54.831+08:00"
+            }
+        ]
+    }
+}
+
+}
